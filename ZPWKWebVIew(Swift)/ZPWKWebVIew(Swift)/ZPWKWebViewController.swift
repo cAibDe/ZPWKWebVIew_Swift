@@ -75,13 +75,11 @@ class ZPWKWebViewController: UIViewController {
         if isUseWebTitle {
             webView.removeObserver(self, forKeyPath: "title")
         }
+        SVProgressHUD.dismiss()
     }
     func shouldShowRefreshHeader() -> Bool {
         return true
     }
-//    func isUseWebTitle() -> Bool {
-//        return true
-//    }
     func setUpWebView() {
         print(#function)
         let config = WKWebViewConfiguration()
@@ -91,8 +89,8 @@ class ZPWKWebViewController: UIViewController {
         webView.uiDelegate = self
         view.addSubview(webView)
         webView.didReceiveMessage = {  msg in
-
-            print(msg)
+            let a = msg as! ZPScriptMessage
+            print(a.method)
         }
 
     }
