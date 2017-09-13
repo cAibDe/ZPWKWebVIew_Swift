@@ -13,8 +13,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let pushBtn = UIButton(type: .custom)
+        pushBtn.frame = CGRect(x: 100, y: 100, width: 100, height: 30)
+        
+        pushBtn.setTitle("WebView", for: .normal)
+        pushBtn.setTitleColor(UIColor.red, for: .normal)
+        pushBtn.addTarget(self, action: #selector(btnAction(button:)), for: .touchUpInside)
+        view.addSubview(pushBtn)
+        
     }
-
+     @objc func btnAction(button:UIButton) {
+        let zpVC = ZPWKWebViewController()
+        zpVC.url = "http://www.jianshu.com/p/310e3c3d00cd"
+        navigationController?.pushViewController(zpVC, animated: true)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

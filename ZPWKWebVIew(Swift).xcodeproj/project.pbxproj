@@ -14,6 +14,17 @@
 		6E06797C1F6792AE005D572E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E06797A1F6792AE005D572E /* LaunchScreen.storyboard */; };
 		6E0679871F6792AE005D572E /* ZPWKWebVIew_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0679861F6792AE005D572E /* ZPWKWebVIew_Swift_Tests.swift */; };
 		6E0679921F6792AE005D572E /* ZPWKWebVIew_Swift_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0679911F6792AE005D572E /* ZPWKWebVIew_Swift_UITests.swift */; };
+		6E0679A11F6792FF005D572E /* ZPScriptMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0679A01F6792FF005D572E /* ZPScriptMessage.swift */; };
+		6E0679A31F67932B005D572E /* ZPWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0679A21F67932B005D572E /* ZPWebView.swift */; };
+		6E0679A51F679358005D572E /* ZPWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0679A41F679358005D572E /* ZPWKWebViewController.swift */; };
+		6E7344E01F68DCF5002D0442 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6E7344D11F68DCF5002D0442 /* LICENSE.txt */; };
+		6E7344E11F68DCF5002D0442 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6E7344D21F68DCF5002D0442 /* README.md */; };
+		6E7344E21F68DCF5002D0442 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7344D51F68DCF5002D0442 /* SVIndefiniteAnimatedView.m */; };
+		6E7344E31F68DCF5002D0442 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7344D71F68DCF5002D0442 /* SVProgressAnimatedView.m */; };
+		6E7344E41F68DCF5002D0442 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E7344D81F68DCF5002D0442 /* SVProgressHUD.bundle */; };
+		6E7344E51F68DCF5002D0442 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7344DA1F68DCF5002D0442 /* SVProgressHUD.m */; };
+		6E7344E61F68DCF5002D0442 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7344DC1F68DCF5002D0442 /* SVRadialGradientLayer.m */; };
+		6E7344E71F68DCF5002D0442 /* UINavigationController+SGProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7344DF1F68DCF5002D0442 /* UINavigationController+SGProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,23 @@
 		6E06798D1F6792AE005D572E /* ZPWKWebVIew(Swift)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZPWKWebVIew(Swift)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0679911F6792AE005D572E /* ZPWKWebVIew_Swift_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZPWKWebVIew_Swift_UITests.swift; sourceTree = "<group>"; };
 		6E0679931F6792AE005D572E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0679A01F6792FF005D572E /* ZPScriptMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPScriptMessage.swift; sourceTree = "<group>"; };
+		6E0679A21F67932B005D572E /* ZPWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPWebView.swift; sourceTree = "<group>"; };
+		6E0679A41F679358005D572E /* ZPWKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPWKWebViewController.swift; sourceTree = "<group>"; };
+		6E7344D11F68DCF5002D0442 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		6E7344D21F68DCF5002D0442 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6E7344D41F68DCF5002D0442 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		6E7344D51F68DCF5002D0442 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		6E7344D61F68DCF5002D0442 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		6E7344D71F68DCF5002D0442 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		6E7344D81F68DCF5002D0442 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		6E7344D91F68DCF5002D0442 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		6E7344DA1F68DCF5002D0442 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		6E7344DB1F68DCF5002D0442 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		6E7344DC1F68DCF5002D0442 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		6E7344DE1F68DCF5002D0442 /* UINavigationController+SGProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SGProgress.h"; sourceTree = "<group>"; };
+		6E7344DF1F68DCF5002D0442 /* UINavigationController+SGProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SGProgress.m"; sourceTree = "<group>"; };
+		6E7344EC1F68DDF3002D0442 /* ZPWKWebVIew-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZPWKWebVIew-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +125,12 @@
 		6E0679701F6792AE005D572E /* ZPWKWebVIew(Swift) */ = {
 			isa = PBXGroup;
 			children = (
+				6E7344D01F68DCF5002D0442 /* SVProgressHUD */,
+				6E7344DD1F68DCF5002D0442 /* UINavigationController+SGProgress */,
+				6E06799F1F6792D2005D572E /* ZPWKWebVIew(Swift) */,
 				6E0679711F6792AE005D572E /* AppDelegate.swift */,
 				6E0679731F6792AE005D572E /* ViewController.swift */,
+				6E7344EC1F68DDF3002D0442 /* ZPWKWebVIew-Bridging-Header.h */,
 				6E0679751F6792AE005D572E /* Main.storyboard */,
 				6E0679781F6792AE005D572E /* Assets.xcassets */,
 				6E06797A1F6792AE005D572E /* LaunchScreen.storyboard */,
@@ -123,6 +155,51 @@
 				6E0679931F6792AE005D572E /* Info.plist */,
 			);
 			path = "ZPWKWebVIew(Swift)UITests";
+			sourceTree = "<group>";
+		};
+		6E06799F1F6792D2005D572E /* ZPWKWebVIew(Swift) */ = {
+			isa = PBXGroup;
+			children = (
+				6E0679A01F6792FF005D572E /* ZPScriptMessage.swift */,
+				6E0679A21F67932B005D572E /* ZPWebView.swift */,
+				6E0679A41F679358005D572E /* ZPWKWebViewController.swift */,
+			);
+			path = "ZPWKWebVIew(Swift)";
+			sourceTree = "<group>";
+		};
+		6E7344D01F68DCF5002D0442 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6E7344D11F68DCF5002D0442 /* LICENSE.txt */,
+				6E7344D21F68DCF5002D0442 /* README.md */,
+				6E7344D31F68DCF5002D0442 /* SVProgressHUD */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		6E7344D31F68DCF5002D0442 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6E7344D41F68DCF5002D0442 /* SVIndefiniteAnimatedView.h */,
+				6E7344D51F68DCF5002D0442 /* SVIndefiniteAnimatedView.m */,
+				6E7344D61F68DCF5002D0442 /* SVProgressAnimatedView.h */,
+				6E7344D71F68DCF5002D0442 /* SVProgressAnimatedView.m */,
+				6E7344D81F68DCF5002D0442 /* SVProgressHUD.bundle */,
+				6E7344D91F68DCF5002D0442 /* SVProgressHUD.h */,
+				6E7344DA1F68DCF5002D0442 /* SVProgressHUD.m */,
+				6E7344DB1F68DCF5002D0442 /* SVRadialGradientLayer.h */,
+				6E7344DC1F68DCF5002D0442 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		6E7344DD1F68DCF5002D0442 /* UINavigationController+SGProgress */ = {
+			isa = PBXGroup;
+			children = (
+				6E7344DE1F68DCF5002D0442 /* UINavigationController+SGProgress.h */,
+				6E7344DF1F68DCF5002D0442 /* UINavigationController+SGProgress.m */,
+			);
+			path = "UINavigationController+SGProgress";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +270,7 @@
 				TargetAttributes = {
 					6E06796D1F6792AE005D572E = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = K2WT69M66J;
+						DevelopmentTeam = Y8Z77UB4PH;
 						ProvisioningStyle = Automatic;
 					};
 					6E0679811F6792AE005D572E = {
@@ -235,6 +312,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7344E41F68DCF5002D0442 /* SVProgressHUD.bundle in Resources */,
+				6E7344E01F68DCF5002D0442 /* LICENSE.txt in Resources */,
 				6E06797C1F6792AE005D572E /* LaunchScreen.storyboard in Resources */,
 				6E0679791F6792AE005D572E /* Assets.xcassets in Resources */,
 				6E0679771F6792AE005D572E /* Main.storyboard in Resources */,
@@ -262,8 +341,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7344E71F68DCF5002D0442 /* UINavigationController+SGProgress.m in Sources */,
+				6E7344E11F68DCF5002D0442 /* README.md in Sources */,
 				6E0679741F6792AE005D572E /* ViewController.swift in Sources */,
+				6E0679A31F67932B005D572E /* ZPWebView.swift in Sources */,
+				6E0679A11F6792FF005D572E /* ZPScriptMessage.swift in Sources */,
+				6E0679A51F679358005D572E /* ZPWKWebViewController.swift in Sources */,
+				6E7344E51F68DCF5002D0442 /* SVProgressHUD.m in Sources */,
+				6E7344E21F68DCF5002D0442 /* SVIndefiniteAnimatedView.m in Sources */,
 				6E0679721F6792AE005D572E /* AppDelegate.swift in Sources */,
+				6E7344E31F68DCF5002D0442 /* SVProgressAnimatedView.m in Sources */,
+				6E7344E61F68DCF5002D0442 /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +452,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "ZPWKWebView(Swift)/ZPWKWebView-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -407,6 +496,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "ZPWKWebView(Swift)/ZPWKWebView-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -417,9 +507,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K2WT69M66J;
+				DEVELOPMENT_TEAM = Y8Z77UB4PH;
 				INFOPLIST_FILE = "ZPWKWebVIew(Swift)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.C4ibD3.ZPWKWebVIew-Swift-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -430,9 +521,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K2WT69M66J;
+				DEVELOPMENT_TEAM = Y8Z77UB4PH;
 				INFOPLIST_FILE = "ZPWKWebVIew(Swift)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.C4ibD3.ZPWKWebVIew-Swift-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -516,6 +608,7 @@
 				6E0679981F6792AE005D572E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E0679991F6792AE005D572E /* Build configuration list for PBXNativeTarget "ZPWKWebVIew(Swift)Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +617,7 @@
 				6E06799B1F6792AE005D572E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E06799C1F6792AE005D572E /* Build configuration list for PBXNativeTarget "ZPWKWebVIew(Swift)UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +626,7 @@
 				6E06799E1F6792AE005D572E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

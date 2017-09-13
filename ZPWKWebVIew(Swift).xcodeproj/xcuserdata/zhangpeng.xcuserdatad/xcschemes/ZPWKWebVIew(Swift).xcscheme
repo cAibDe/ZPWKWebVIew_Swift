@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6E06796D1F6792AE005D572E"
+               BuildableName = "ZPWKWebVIew(Swift).app"
+               BlueprintName = "ZPWKWebVIew(Swift)"
+               ReferencedContainer = "container:ZPWKWebVIew(Swift).xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6E0679811F6792AE005D572E"
+               BuildableName = "ZPWKWebVIew(Swift)Tests.xctest"
+               BlueprintName = "ZPWKWebVIew(Swift)Tests"
+               ReferencedContainer = "container:ZPWKWebVIew(Swift).xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6E06798C1F6792AE005D572E"
+               BuildableName = "ZPWKWebVIew(Swift)UITests.xctest"
+               BlueprintName = "ZPWKWebVIew(Swift)UITests"
+               ReferencedContainer = "container:ZPWKWebVIew(Swift).xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6E06796D1F6792AE005D572E"
+            BuildableName = "ZPWKWebVIew(Swift).app"
+            BlueprintName = "ZPWKWebVIew(Swift)"
+            ReferencedContainer = "container:ZPWKWebVIew(Swift).xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6E06796D1F6792AE005D572E"
+            BuildableName = "ZPWKWebVIew(Swift).app"
+            BlueprintName = "ZPWKWebVIew(Swift)"
+            ReferencedContainer = "container:ZPWKWebVIew(Swift).xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6E06796D1F6792AE005D572E"
+            BuildableName = "ZPWKWebVIew(Swift).app"
+            BlueprintName = "ZPWKWebVIew(Swift)"
+            ReferencedContainer = "container:ZPWKWebVIew(Swift).xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
