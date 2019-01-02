@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
      @objc func btnAction(button:UIButton) {
         let zpVC = ZPWKWebViewController()
-        zpVC.url = "http://www.jianshu.com/p/310e3c3d00cd"
+        zpVC.url = "http://blog.csdn.net/callmeanlin008/article/details/53170661"
         navigationController?.pushViewController(zpVC, animated: true)
     }
     override func didReceiveMemoryWarning() {

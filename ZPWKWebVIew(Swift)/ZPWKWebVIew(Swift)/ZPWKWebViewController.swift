@@ -92,7 +92,6 @@ class ZPWKWebViewController: UIViewController {
             let a = msg as! ZPScriptMessage
             print(a.method)
         }
-
     }
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if (keyPath == "estimatedProgress") {
